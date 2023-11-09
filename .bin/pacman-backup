@@ -1,0 +1,2 @@
+pacman -Qqen > ~/.pkgs/pacman
+pacman -Qqem > ~/.pkgs/paru

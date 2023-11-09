@@ -1,0 +1,11 @@
+function install() {
+	if [ -f "$HOME/.pkgs/$1" ]
+	then
+		sudo $1 -S --needed --noconfirm $(cat $HOME/.pkgs/$1)
+	else
+		echo "Missing pkgs info in $HOME/.pkgs/$1!"
+	fi
+}
+
+install pacman
+install paru

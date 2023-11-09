@@ -1,0 +1,20 @@
+#!/bin/bash
+function create_env() {
+    echo creating virtual environment...
+    python3 -m venv /tmp/.venv
+    chmod +x /tmp/.venv/bin/activate
+    source /tmp/.venv/bin/activate
+    pip install -r requirements.txt
+    echo virtual environment created.
+}
+
+function remove_env() {
+    echo removing virtual environment...
+    deactivate
+    rm -rf /tmp/.venv
+    echo virtual environment removed.
+}
+
+create_env
+python3 $1
+remove_env
