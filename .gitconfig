@@ -1,0 +1,56 @@
+[core]
+	editor = vim
+
+[color]
+	ui = true
+
+[user]
+	email = 1035325592@qq.com
+	name = CookiePieWw
+
+[http]
+	postBuffer = 524288000
+
+[https]
+	postBuffer = 524288000
+
+[color "diff"]
+	context = 15
+	meta = 4 bold reverse
+	frag = 3 bold reverse
+	func = 166 bold reverse
+	commit = 3 bold
+	old = 9
+	new = 10
+	oldMoved = 8
+	newMoved = 14
+	oldMovedAlternative = 8
+	newMovedAlternative = 14
+	whitespace = 1 reverse
+
+[color "diff-highlight"]
+	oldHighlight = ul
+	oldReset = noul
+	newHighlight = ul
+	newReset = noul
+
+[pretty]
+	lo  = tformat:%C(auto)%h%C(reset)%C(auto)%d%C(reset) %s %C(italic blue)%ad%C(reset) %C(241)%aN%C(reset)
+	lc  = format:%C(auto)%h%C(reset) %C(white)-%C(reset) %C(italic blue)%ad%C(reset) %C(italic cyan)(%ar)%C(reset)%C(auto)%d%C(reset)%n %C(white)⤷%C(reset) %s %C(241)- %aN <%aE>%C(reset)%n
+
+[alias]
+	c  = config --show-origin -l
+	ec = config --edit
+	
+	l  = log --pretty=lc --graph
+	lo = log --pretty=lo --date=human
+
+	st = status
+
+  sh = show --stat --cc --summary --patch
+
+	b  = branch
+	ba = branch --all -vv
+
+	dl = diff --cached -c HEAD~
+
