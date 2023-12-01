@@ -1,14 +1,25 @@
 # blogs and posts
-http://www.ruanyifeng.com/blog/atom.xml
+"--- blog/posts ---"                         "blog/posts"
+http://www.ruanyifeng.com/blog/atom.xml      "blog/posts"
+https://quail.ink/op7418/feed/atom           "blog/posts"
+https://blog.skk.moe/atom.xml                "blog/posts"
+https://herbsutter.com/feed/                 "blog/posts"
 
-# tech
-https://cppcon.org/rss
+# conf
+"--- conference ---"                         "conference"
+https://cppcon.org/rss                       "conference"
 
 # news
-https://rsshub.app/apnews/topics/apf-topnews
-https://rsshub.app/reuters/world
-https://rsshub.app/reuters/technology
-https://rsshub.app/zaobao/realtime/china
-https://rsshub.app/zaobao/znews/china
-https://rsshub.app/zaobao/realtime/world
-https://rsshub.app/zaobao/znews/world
+"--- news ---"                               "news"
+https://rsshub.app/apnews/topics/apf-topnews "news"
+https://rsshub.app/reuters/world             "news"
+https://rsshub.app/reuters/technology        "news"
+https://rsshub.app/zaobao/realtime/china     "news"
+https://rsshub.app/zaobao/znews/china        "news"
+https://rsshub.app/zaobao/realtime/world     "news"
+https://rsshub.app/zaobao/znews/world        "news"
+
+# games
+"--- games ---"                              "games"
+https://www.hltv.org/rss/news                "games"
+https://rsshub.app/liquipedia/counterstrike/matches/G2_Esports "games"

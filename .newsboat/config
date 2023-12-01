@@ -11,7 +11,8 @@ max-items 100
 # -- display -------------------------------------------------------------------
 
 show-read-feeds yes
-feed-sort-order unreadarticlecount-asc
+feed-sort-order none
+highlight feedlist "^.*\\(0/0\\)" default default invis
 
 color info default default reverse
 color listnormal_unread yellow default
