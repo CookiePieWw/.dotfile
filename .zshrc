@@ -100,4 +100,4 @@ source $ZSH/oh-my-zsh.sh
 #
 [[ -f "$HOME/.zalias" ]] \
     && source "$HOME/.zalias"
-alias dotfiles="/usr/bin/env git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
