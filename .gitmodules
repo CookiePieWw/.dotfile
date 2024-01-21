@@ -1,0 +1,12 @@
+[submodule ".others/zsh-colorls"]
+	path = .others/zsh-colorls
+	url = git@github.com:Kallahan23/zsh-colorls.git
+[submodule ".others/zsh-autosuggestions"]
+	path = .others/zsh-autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
+[submodule ".others/zsh-autocomplete"]
+	path = .others/zsh-autocomplete
+	url = git@github.com:marlonrichert/zsh-autocomplete.git
+[submodule ".others/cmdtime"]
+	path = .others/cmdtime
+	url = git@github.com:tom-auger/cmdtime.git
