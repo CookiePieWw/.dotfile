@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]
+then
+    echo "Usage:" $(basename $0) "[up|down] to start and stop kde plasma"
+    exit
+fi
+
+if test "$1" = "up"
+then
+    systemctl start sddm
+    kstart plasmashell
+elif test "$1" = "down"
+then
+    systemctl stop sddm
+    killall plasmashell
+else
+    echo "Usage:" $(basename $0) "[up|down] to start and stop kde plasma"
+    exit
+fi
+

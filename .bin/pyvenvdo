@@ -1,4 +1,10 @@
 #!/bin/bash
+if  if [ $# -lt 1 ]
+then
+    echo "Usage:" $(basename $0) "<pyfile>"
+    exit
+fi
+
 function create_env() {
     echo creating virtual environment...
     python3 -m venv /tmp/.venv
