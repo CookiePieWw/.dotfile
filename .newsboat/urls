@@ -1,9 +1,13 @@
 # blogs and posts
-"--- blog/posts ---"                         "blog/posts"
-http://www.ruanyifeng.com/blog/atom.xml      "blog/posts"
-https://quail.ink/op7418/feed/atom           "blog/posts"
-https://blog.skk.moe/atom.xml                "blog/posts"
-https://herbsutter.com/feed/                 "blog/posts"
+"--- blog/posts ---"                             "blog/posts"
+https://viralinstruction.com/feed.xml            "blog/posts"
+http://www.ruanyifeng.com/blog/atom.xml          "blog/posts"
+https://quail.ink/op7418/feed/atom               "blog/posts"
+https://blog.skk.moe/atom.xml                    "blog/posts"
+https://herbsutter.com/feed/                     "blog/posts"
+https://eli.thegreenplace.net/feeds/all.atom.xml "blog/posts"
+https://snarky.ca/rss/                           "blog/posts"
+https://blog.yzsun.me/feed.xml                   "blog/posts"
 
 # conf
 "--- conference ---"                         "conference"
@@ -18,8 +22,9 @@ https://rsshub.app/zaobao/realtime/china     "news"
 https://rsshub.app/zaobao/znews/china        "news"
 https://rsshub.app/zaobao/realtime/world     "news"
 https://rsshub.app/zaobao/znews/world        "news"
+https://news.ycombinator.com/rss             "news"
 
 # games
-"--- games ---"                              "games"
-https://www.hltv.org/rss/news                "games"
+"--- games ---"                                                "games"
+https://www.hltv.org/rss/news                                  "games"
 https://rsshub.app/liquipedia/counterstrike/matches/G2_Esports "games"
